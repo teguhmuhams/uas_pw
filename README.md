@@ -11,4 +11,4 @@ Toko Jam Sederhana dengan fitur:
 - Halaman Admin (CRUD barang)
 - Shop (Update stok barang)
 
-Note: Change htaccess.txt to .htaccess
+Note: ubah extension htaccess.txt menjadi .htaccess
