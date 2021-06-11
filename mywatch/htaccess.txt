@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^beli/(.*) beli.php?id=$1 [NC,L]
+RewriteRule ^admin/(.*)/(.*) admin/$1.php?id=$2 [NC,L]
