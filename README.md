@@ -12,3 +12,9 @@ Toko Jam Sederhana dengan fitur:
 - Shop (Update stok barang)
 
 Note: ubah extension htaccess.txt menjadi .htaccess
+
+Akun admin: 
+
+u: admin 
+
+p: 12345
