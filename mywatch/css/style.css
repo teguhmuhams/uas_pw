@@ -1,0 +1,150 @@
+/* Main style */
+:root {
+	--pr_font: "Cabin", sans-serif;
+	--sc_font: "Roboto", sans-serif;
+}
+
+body {
+	font-family: var(--pr_font);
+}
+nav {
+	background-color: #fdfdfd;
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+}
+a {
+	transition: 0.3s;
+}
+a:hover {
+	text-decoration: none;
+}
+table {
+	font-family: "Roboto", sans-serif;
+}
+.navbar-brand {
+	font-size: 36px;
+}
+.nav-item {
+	padding: 0 8px;
+}
+.nav-item a {
+	transition: 0.4s;
+}
+.nav-item .btn {
+	color: white !important;
+	width: 75px;
+	padding: 5px;
+}
+.card {
+	border: 0;
+}
+
+/* Landing page */
+.hero {
+	background-color: #f3f6f9;
+}
+.hero img {
+	width: 80%;
+	height: auto;
+	transition: all 0.8s ease;
+}
+
+.hero img:hover {
+	transform: scale(1.1);
+}
+.hero-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.hero-content .btn {
+	width: fit-content;
+}
+.koleksipremium .card {
+	border: 0;
+}
+.daftar-merk {
+	background-color: #f3f6f9;
+}
+.daftar-merk img {
+	width: 50%;
+	padding: 25px 0;
+}
+@media (min-width: 576px) {
+	.daftar-merk img {
+		width: 80%;
+	}
+}
+footer {
+	background-color: #f3f6f9;
+	padding: 25px;
+}
+
+/* Auth Page */
+main.auth {
+	background-color: #f3f6f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	transition: all 0.8s ease;
+}
+.brand {
+	text-align: center;
+	font-weight: bold;
+	color: #0061b1;
+}
+.auth-box {
+	background: white;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	width: 80%;
+	max-width: 400px;
+}
+.auth-box .form-control {
+	padding: 15px 25px;
+	margin-bottom: 20px;
+	min-height: 45px;
+	font-size: 13px;
+	line-height: 15;
+	font-weight: normal;
+}
+.forgot {
+	font-size: 14px;
+	color: #acacac;
+}
+.valid-msg {
+	color: #cc211b;
+}
+
+/* Shop page */
+.product {
+	font-family: var(--sc_font);
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-img-top {
+	max-width: 100%;
+	max-height: 100%;
+}
+.product-info {
+	display: flex;
+	justify-content: space-between;
+}
+.product-info h5 {
+	font-size: 1rem;
+}
+.stars span {
+	font-size: 14px;
+	color: orange;
+}
+.product-brand {
+	font-size: 14px;
+	margin-bottom: 6px;
+	color: #9e9e9e;
+}
+/* Admin page */
+.data-row img {
+	width: 150px;
+}
+td.fitwidth {
+	width: 1px;
+	white-space: nowrap;
+}
